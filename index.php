@@ -6,7 +6,7 @@ class Matrix {
     protected $delta;
     protected $matrix;
 
-    public function __construct($a) {
+    function __construct($a) {
         $this->matrix = $a;
         $this->cols = count($this->matrix);
         $this->rows = count($this->matrix[0]);
